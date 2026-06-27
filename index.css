@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.span {
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.price {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 0;
+}
+
+
+section.box, 
+section.box.two, 
+section.box.three {
+    width: 340px; 
+    min-height: 550px; 
+    text-align: center;
+    border: 3px solid black; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    background-color: beige; 
+    vertical-align: top;
+    margin: 10px; 
+    padding-bottom: 25px; 
+}
+
+
+section.box img, 
+section.box.two img, 
+section.box.three img {
+    width: 100%;
+    height: 280px; 
+    object-fit: cover; 
+    display: block; 
+    border: 3px solid black;
+}
+
+section.box p, 
+section.box.two p, 
+section.box.three p {
+    padding: 0 15px;
+    line-height: 1.5;
+    color: #555;
+}
+
+button {
+    background-color: green; 
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px; 
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+section.media{
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    border: 4px solid black;
+    padding: 25px;
+    background-color: aqua;
+}
+section.media p,section.media.two p,section.media.three p{
+    letter-spacing: 1px;
+}
+section.media button{
+    background-color: black;
+    color: white;
+}
+section.media.two {
+    background-color: palevioletred;
+     width: 350px;
+    height: 600px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    border: 4px solid black;
+    padding: 50px;
+    vertical-align: top;
+   
+}
+section.media.three {
+    background-color: red;
+     width: 350px;
+    height: 600px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    border: 4px solid black;
+    padding: 50px;
+    vertical-align: top;
+   
+}
+section.media.two button{
+    background-color: grey;
+    color:black;
+}
+
+
+
